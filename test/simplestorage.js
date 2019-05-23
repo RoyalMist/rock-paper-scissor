@@ -9,7 +9,6 @@ contract("SimpleStorage", accounts => {
 
         // Get stored value
         const storedData = await simpleStorageInstance.storedData.call();
-
         assert.equal(storedData, 89, "The value 89 was not stored.");
     });
 });

@@ -1,11 +1,9 @@
 import React, {Component} from "react";
 import {DrizzleProvider} from "drizzle-react";
 import {LoadingContainer} from "drizzle-react-components";
-
-import "./App.css";
-
 import drizzleOptions from "./drizzleOptions";
 import MyContainer from "./MyContainer";
+import "./styles/App.css";
 
 class App extends Component {
     render() {
