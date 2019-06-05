@@ -13,7 +13,7 @@ export default () => (
 
         <div className="section">
             <h2>Active Account</h2>
-            <AccountData accountIndex="0" units="ether" precision="3"/>
+            <AccountData accountIndex="0" units="ether" precision="5"/>
         </div>
 
         <div className="section">
