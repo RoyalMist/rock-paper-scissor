@@ -3,7 +3,7 @@ const path = require("path");
 module.exports = {
     compilers: {
         solc: {
-            version: "0.5.8"
+            version: "0.5.9"
         }
     },
     contracts_build_directory: path.join(__dirname, "app/src/contracts"),
